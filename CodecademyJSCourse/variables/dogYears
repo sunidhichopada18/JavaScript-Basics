@@ -1,0 +1,19 @@
+const myAge = 18;
+// variable myAge is assigned to my myAge
+let earlyYears = 2; 
+// variable earlyAge is assigned value 2
+earlyYears *= 10.5;
+let laterYears = myAge - 2;
+//variable laterAge is assigned value my myAge -2
+laterYears *= 4;
+//JS
+console.log(earlyYears);
+console.log(laterYears);
+
+let myAgeInDogYears = earlyYears + laterYears
+//JS
+let myName = "Sunidhi".toLowerCase();
+// return string with all toLowerCase
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
+// print the string using string interpolation
+

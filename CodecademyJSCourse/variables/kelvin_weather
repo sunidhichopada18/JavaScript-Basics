@@ -1,0 +1,16 @@
+const kelvin = 0;
+// kelvin is the constant assigned 293 temperature
+const celcius = kelvin - 273;
+// celcius is the const which is 273 less than kelvin
+
+let fahrenheit = celcius * (9/5) + 32;
+// fahrenheit is assigned value of celcius * (9/5) + 32
+
+fahrenheit = Math.floor(fahrenheit);
+// we remove the decimal by using built in floor method
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`)
+
+let newton = celcius*(33/100)
+newton = Math.floor(newton);
+console.log(`The temperature in newton is ${newton} degrees Newton`) 
+
